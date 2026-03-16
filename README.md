@@ -1,6 +1,6 @@
 # LSST classification
 
-Minimal LSST time-series classification pipeline with baselines, MultiRocket, and Mantis linear probing.
+LSST time-series classification pipeline with baselines, MultiRocket, and Mantis linear probing.
 
 ## Installation
 
