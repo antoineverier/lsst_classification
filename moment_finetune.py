@@ -1,8 +1,8 @@
 # Fine-tuning MomentFM on LSST dataset for time series classification
 # We load the pretrained MOMENT model, replace its head with a small MLP,
-# and unfreeze the last 2 encoder blocks so the model can adapt to LSST.
+# and unfreeze the last 4 encoder blocks so the model can adapt to LSST.
 # Preprocessing is the same as in generalization.py so results are comparable.
-
+#ran for around 8hours
 import time
 import warnings
 import numpy as np
